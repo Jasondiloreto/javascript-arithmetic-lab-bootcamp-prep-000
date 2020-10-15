@@ -41,9 +41,15 @@ function decrement(n) {
   return n;
 }
 
+<<<<<<< HEAD
 
 function makeInt(n){
   return parseInt(n, 10);
+=======
+function makeInt(n){
+parseInt('n', 10);
+return n
+>>>>>>> 2b040a3c3a0a230bb7d9d1eb1aca146834ee5e29
 }
 
 function preserveDecimal(n){
